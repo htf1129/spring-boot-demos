@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@EnableAutoConfiguration(exclude={DruidDataSourceAutoConfigure.class})
+@EnableAutoConfiguration(exclude={DruidDataSourceAutoConfigure.class})
 @SpringBootApplication
 public class DemoMybatisApplication {
 
