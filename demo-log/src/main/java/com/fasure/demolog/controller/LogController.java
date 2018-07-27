@@ -13,7 +13,6 @@ public class LogController {
 
     @RequestMapping("/demo")
     public String test() {
-
         logger.debug("debug log");
 
         logger.info("info log");
