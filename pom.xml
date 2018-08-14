@@ -21,6 +21,8 @@
     <modules>
         <module>demo-log</module>
         <module>demo-mybatis</module>
+        <module>demo-dubbo</module>
+        <module>demo-selenium</module>
     </modules>
 
 </project>
